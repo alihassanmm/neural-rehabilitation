@@ -1,0 +1,42 @@
+{
+  "name": "resume-refiner",
+  "version": "1.0.0",
+  "description": "AI-powered resume optimization tool with professional PDF generation",
+  "main": "frontend/src/index.js",
+  "scripts": {
+    "dev": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install-frontend": "cd frontend && npm install",
+    "install-backend": "cd backend && pip install -r requirements.txt",
+    "setup": "npm run install-frontend && npm run install-backend",
+    "start": "cd backend && python src/main.py",
+    "test": "cd backend && python -m pytest tests/",
+    "lint": "cd backend && flake8 src/",
+    "format": "cd backend && black src/"
+  },
+  "keywords": [
+    "resume",
+    "ai",
+    "optimization",
+    "pdf",
+    "latex",
+    "career",
+    "job-search"
+  ],
+  "author": "ResumeRefiner Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0",
+    "python": ">=3.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/resume-refiner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/resume-refiner/issues"
+  },
+  "homepage": "https://github.com/your-username/resume-refiner#readme"
+}
+
